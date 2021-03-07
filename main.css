@@ -119,10 +119,21 @@ font-family: 'Ubuntu', sans-serif;
     display: inline-block;
     background: #8b17bd;
     color: #fff;
-    
+    font-size: 25px;
+    font-weight: 600;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #8b17bd;
+    transition: all 0.3s ease;
 }
 
+.home .home-content a:hover{
+    color: #8b17bd;
+    background: none;
+}
 /*responsive media query*/
+
 @media (max-width: 1104px){
     .home .max-width{
         margin-left: 0px;
@@ -174,6 +185,26 @@ font-family: 'Ubuntu', sans-serif;
     
     .home .home-content .text-3{
         font-size: 35px;
+    }
+    .home .home-content a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+}
+
+@media (max-width: 690px){
+    .max-width{
+        padding: 0 23px;
+    }
+    .home .home-content .text-2{
+        font-size: 60px;
+    }
+    
+    .home .home-content .text-3{
+        font-size: 32px;
+    }
+    .home .home-content a{
+        font-size: 20px;
     }
 }
 
