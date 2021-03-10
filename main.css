@@ -229,6 +229,7 @@ section{
     color: #8b17bd;
     background: none;
 }
+
 /*responsive media query*/
 
 @media (max-width: 1300px){
@@ -299,7 +300,7 @@ section{
         max-width: 800px;
     }
     .about .about-content .column{
-        width: 50%;
+        width: 100%;
     }
     .about .about-content .left{
         display: flex;
