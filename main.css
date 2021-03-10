@@ -133,10 +133,22 @@ font-family: 'Ubuntu', sans-serif;
     color: #8b17bd;
     background: none;
 }
+
 /* section content similar styling */
 
 section{
     padding: 100px 0;
+}
+
+.about, .services, .skills{
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .about-content, .services .services-content, .skills .skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 section .title{
@@ -170,21 +182,11 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
-/*about section styling*/
 
-.about, .services{
-    font-family: 'Poppins', sans-serif;
-}
+/*about section styling*/
 
 .about .title::after{
     content: "Who i am";
-}
-
-.about .about-content, .services .services-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .about .about-content .left{
@@ -250,6 +252,48 @@ section .title::after{
     content: "What i provide";
 }
 
+.services .services-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .services-content .card .box{
+    transition: all 0.3s ease;
+}
+
+.services .services-content .card:hover{
+    background: #8b17bd;
+}
+
+.services .services-content .card:hover .box{
+    transform: scale(1.05);
+}
+
+.services .services-content .card i{
+    font-size: 50px;
+    color: #8b17bd;
+}
+
+.services .services-content .card:hover i{
+    color: #fff;
+}
+
+.services .services-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+/* my skills styling */
+
+.skills .title::after{
+    content: "what i know";
+}
 /*responsive media query*/
 
 @media (max-width: 1300px){
@@ -330,6 +374,10 @@ section .title::after{
     .about .about-content .right{
         flex: 100%;
     }
+    .services .services-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 690px){
@@ -345,6 +393,9 @@ section .title::after{
     }
     .home .home-content a{
         font-size: 20px;
+    }
+    .services .services-content .card{
+        width: 100%;
     }
 }
 
