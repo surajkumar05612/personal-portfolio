@@ -294,6 +294,91 @@ section .title::after{
 .skills .title::after{
     content: "what i know";
 }
+
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.skills .skills-content .left p{
+    text-align: justify;
+}
+
+.skills .skills-content .left a{
+    display: inline-block;
+    background: #8b17bd;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #8b17bd;
+    transition: all 0.3s ease;
+}
+
+.skills .skills-content .left a:hover{
+    background: #fff;
+    color: #8b17bd;
+}
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+
+.skills .skills-content .right .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+}
+
+
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #8b17bd;
+}
+
+.skills-content .right .html::before{
+    width: 90%;
+}
+
+.skills-content .right .css::before{
+    width: 70%;
+}
+
+.skills-content .right .js::before{
+    width: 60%;
+}
+
+.skills-content .right .node::before{
+    width: 50%;
+}
+
+.skills-content .right .design::before{
+    width: 80%;
+}
+
 /*responsive media query*/
 
 @media (max-width: 1300px){
@@ -377,6 +462,10 @@ section .title::after{
     .services .services-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
+    }
+    .skills .skills-content .column{
+        width: 100%;
+        margin-bottom: 25px;
     }
 }
 
