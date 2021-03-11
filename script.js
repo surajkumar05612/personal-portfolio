@@ -10,9 +10,14 @@ $(document).ready(function(){
     });
 
 /*navbar toggling*/
-$('.menu-btn').click(function(){
-    $('.navbar .menu').toggleClass("active");
-    $('.menu-btn i').toggleClass("active");
-});
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+    });
 
+// owl carousel script //
+
+    $('.carousel').owlCarousel({
+
+    });
 });
