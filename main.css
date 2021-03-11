@@ -499,6 +499,7 @@ section .title::after{
 }
 .contact .right form .textarea{
     height: 80px;
+    width: 100%;
 }
 .contact .right form .name{
     margin-right: 10px;
@@ -517,7 +518,18 @@ section .title::after{
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
 }
-
+.contact .right form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+.contact .right form .button{
+    height: 47px;
+    width: 100%;
+}
+.contact .right form .button button{
+    width: 100%;
+    height: 100%;
+}
 /*responsive media query*/
 
 @media (max-width: 1300px){
