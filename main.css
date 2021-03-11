@@ -527,8 +527,20 @@ section .title::after{
     width: 100%;
 }
 .contact .right form .button button{
-    width: 100%;
+    width: 170px;
     height: 100%;
+    border: 2px solid #8b17bd;
+    background: #8b17bd;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact .right form .button button:hover{
+    color: #8b17bd;
+    background: none;
 }
 /*responsive media query*/
 
@@ -614,7 +626,8 @@ section .title::after{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
-    .skills .skills-content .column{
+    .skills .skills-content .column,
+    .contact .contact-content .column{
         width: 100%;
         margin-bottom: 25px;
     }
