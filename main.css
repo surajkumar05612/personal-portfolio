@@ -61,11 +61,13 @@ html{
     display: inline-block;
 }
 .navbar .menu li a{
+    display: block;
     text-decoration: none;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     margin-left: 30px;
+    transition: all 0.3s ease;
 }
 
 .navbar .menu li a:hover{
@@ -140,7 +142,7 @@ html{
 }
 
 .home .home-content .text-3 span{
-    color:#8b17bd;
+    color: crimson;
     font-weight: 600;
 }
 

@@ -30,9 +30,20 @@ $('.scroll-up-btn').click(function(){
 
 //typing animation using typedjs// 
 
-var typed = new typed("",{
-    strings: ["Developer", "Designer", "Editor", "Gamer", "Freelancer"]
-})
+var typed = new Typed(".typing",{
+    strings: ["Developer", "Coder", "Designer", "Editor", "Gamer", "Freelancer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
+
+var typed = new Typed(".typing-1",{
+    strings: ["Developer", "Coder", "Designer", "Editor", "Gamer", "Freelancer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
+
 // owl carousel script //
 
     $('.carousel').owlCarousel({
