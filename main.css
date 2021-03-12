@@ -2,7 +2,7 @@
 
 /*font-family: 'Poppins', sans-serif;
 font-family: 'Ubuntu', sans-serif;
-#8b17bd*/
+#8b17bd   #c245f7*/
 
 *{
     margin: 0;
@@ -114,7 +114,7 @@ html{
 
 .home{
     display: flex;
-    background: url("images/alex-tXYg4Zx7kSU-unsplash.jpg") no-repeat center;
+    background: url("images/alex-tXYg4Zx7kSU-unsplash-min.jpg") no-repeat center;
     height: 100vh;
     min-height: 500px;
     color: #fff;
@@ -133,7 +133,7 @@ html{
     font-size: 70px;
     font-weight: 600;
     margin-left: -3px;
-    color: #8b17bd;
+    color: #c245f7;
 }
 
 .home .home-content .text-3{
