@@ -322,7 +322,7 @@ section .title::after{
 /* my skills styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "what I know";
 }
 
 .skills .skills-content .column{
@@ -412,7 +412,7 @@ section .title::after{
 /* my team styling */
 
 .team .title::after{
-    content: "who with me";
+    content: "who are with me";
 }
 
 .team .carousel .card{
