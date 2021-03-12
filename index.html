@@ -10,21 +10,25 @@
     <script src="/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <title>Personal Portfolio</title>
 </head>
 <body>
-    
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
     <!--naviagtion bar-->
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -40,7 +44,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Suraj Kumar Jena</div>
                 <div class="text-3">And I'm a <span>Developer</span></div>
-                <a href="#">Hire me</a>
+                <a href="#contact">Hire me</a>
             </div>
         </div>
     </section>
@@ -59,7 +63,7 @@
                 <div class="column right">
                     <div class="text">I'm Suraj Kumar Jena and I'm a <span>Developer</span></div>
                     <p>I am a student of lovely professional university, Phagwara, Punjab. I'm Completing my graduation in the field of computer science and Engineering. I'm very much into web developement and web designing, also used to edit videos, images, play video-games. Currently i'm doing some freelancing and working with a team of friends on web developement and marketing field. If you are interested to work with me, do contact me, we will make a great team.</p>
-                    <a href="#">Download CV</a>
+                    <a href="/src/surajcv.pdf" download="">Download CV</a>
                 </div>
             </div>
         </div>
@@ -75,21 +79,21 @@
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Web Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias excepturi suscipit culpa, aliquid iure veniam.</p>
+                        <p>Web design is the process of planning, conceptualizing, and arranging content online.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
                         <div class="text">Digital Marketing</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias excepturi suscipit culpa, aliquid iure veniam.</p>
+                        <p>Digital marketing is the component of marketing that utilizes internet and online based digital technologies.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">Web Developement</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias excepturi suscipit culpa, aliquid iure veniam.</p>
+                        <p>Web development is the work involved in developing a Web site for the Internet or an intranet.</p>
                     </div>
                 </div>
             </div>
@@ -104,8 +108,8 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officiis maiores eius aliquam et at ullam aliquid maxime, eligendi pariatur? Cum sapiente neque magni atque necessitatibus libero quae tenetur blanditiis ea, excepturi provident in cumque error amet debitis reprehenderit aut. Accusamus, maiores! Excepturi fugiat cum tenetur? Vero cumque iure saepe consequuntur, atque provident beatae quibusdam quia, blanditiis, esse laborum minus?</p>
-                    <a href="#">Read more</a>
+                    <p>I'm a student full of fresh energy and talent. I'm doing my Btech in computer science from Lovely professional university. As I'm interested in Web developement & Web designing, I know programming languages associated to them. I'm learning new things & polishing my skills everyday in order to achieve perfection. I have worked with some freelancers in my past and currently looking for more opportunities to showcase my talent. </p>
+                    <a href="#about">Read more</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -214,7 +218,7 @@
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius est quia officia iste enim hic dolores repellendus quibusdam necessitatibus voluptatum.</p>
+                    <p>If you are interested to work with me or want to collab with me in any kind of project then do drop a message, we will make a great team. </p>
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
@@ -264,5 +268,11 @@
             </div>
         </div>
     </section>
+
+    <!--footer section-->
+
+    <footer>
+        <span>Created By <a href="#">DevSuraj</a> | <span class="far fa-copyright"> 2021 All rights reserved.</span>
+    </footer>
 </body>
 </html>
