@@ -114,7 +114,8 @@ html{
 
 .home{
     display: flex;
-    background: url("images/alex-tXYg4Zx7kSU-unsplash-min-min.jpg") no-repeat center;
+    background: url("images/surface-zyeYEU7WyNo-unsplash.jpg") no-repeat center;
+    opacity: 0.8;
     height: 100vh;
     min-height: 500px;
     color: #fff;
